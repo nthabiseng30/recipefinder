@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import { Facebook, Twitter, Instagram, Youtube } from "react-icons/fa";
 import Button from "./Button";
 
 const Footer = () => {
@@ -11,36 +11,37 @@ const Footer = () => {
         <div className="">
           <p>QUICK LINKS</p>
           <div className="flex flex-col text-start mb-4 md:mb-0">
-            <a href="/" className='block md:inline-block py-2 hover:text-gray-500' > Home </a>
-            <a href="/about" className='block md:inline-block py-2 hover:text-gray-500' > About </a>
-            <a href="/services" className='block md:inline-block py-2 hover:text-gray-500' > Services </a>
-            <a href="/contact" className='block md:inline-block py-2 hover:text-gray-500' > Contact </a>
+            <a href='#' className='block md:inline-block py-2 hover:text-gray-500' > Home </a>
+            <a href='#' className='block md:inline-block py-2 hover:text-gray-500' > About </a>
+            <a href='#' className='block md:inline-block py-2 hover:text-gray-500' > Services </a>
+            <a href='#' className='block md:inline-block py-2 hover:text-gray-500' > Contact </a>
+            <a href='#' className='block md:inline-block py-2 hover:text-gray-500' > Chiefs </a>
           </div>
         </div>
         <div>
           <p>LEGAL</p>
           <div className='flex flex-col text-start mb-4 md:mb-0 text-[14px]'>
-            <a href="/terms-and-conditions" className='block md:inline-block py-2 hover:text-gray-500' > Terms and Conditions </a>
-            <a href="/license-agreement" className='block md:inline-block py-2 hover:text-gray-500' > License Agreement </a>
-            <a href="/privacy-policy" className='block md:inline-block py-2 hover:text-gray-500' > Privacy Policy </a>
-            <a href="/copyright-information" className='block md:inline-block py-2 hover:text-gray-500' > Copyright Information </a>
-            <a href="/cookies-policy" className='block md:inline-block py-2 hover:text-gray-500' > Cookies Policy </a>
+            <a href='#' className='block md:inline-block py-2 hover:text-gray-500' > Terms and Conditions </a>
+            <a href='#' className='block md:inline-block py-2 hover:text-gray-500' > License Agreement </a>
+            <a href='#' className='block md:inline-block py-2 hover:text-gray-500' > Privacy Policy </a>
+            <a href='#' className='block md:inline-block py-2 hover:text-gray-500' > Copyright Information </a>
+            <a href='#' className='block md:inline-block py-2 hover:text-gray-500' > Cookies Policy </a>
           </div>
         </div>
         <div className="flex flex-col">
           <p>SOCIAL MEDIA</p>
           <div className="flex mt-4 gap-3">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className='bg-blue-600 p-1.5 rounded-sm text-white hover:text-gray-500 hover:scale-110' >
-              <FaFacebook size={18} />
+            <a href='#' className='bg-blue-600 p-1.5 rounded-sm text-white hover:text-gray-500 hover:scale-110' >
+              <Facebook size={18} />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className='bg-pink-600 p-1.5 rounded-sm text-white hover:text-gray-500 hover:scale-110' >
-              <FaInstagram size={18} />
+            <a href='#' className='bg-pink-600 p-1.5 rounded-sm text-white hover:text-gray-500 hover:scale-110' >
+              <Instagram size={18} />
             </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className='bg-blue-600 p-1.5 rounded-sm text-white hover:text-gray-500 hover:scale-110' >
-              <FaTwitter size={18} />
+            <a href='#' className='bg-blue-600 p-1.5 rounded-sm text-white hover:text-gray-500 hover:scale-110' >
+              <Twitter size={18} />
             </a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className='bg-red-600 p-1.5 rounded-sm text-white hover:scale-110' >
-              <FaYoutube size={18} />
+            <a href='#' className='bg-red-600 p-1.5 rounded-sm text-white hover:scale-110' >
+              <Youtube size={18} />
             </a>
           </div>
           <Button title='Sign up' btnType='button' containerStyles='mt-10 md:block bg-transparent border border-white text-white hover:bg-white hover:text-black rounded-md min-w-[130px]' />
@@ -54,5 +55,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
